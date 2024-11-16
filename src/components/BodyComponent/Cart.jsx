@@ -7,7 +7,7 @@ import LargeImage from "./LargeImage";
 export default function Cart({image, open, hidde, deleteImage}){
      return (
           <>
-               <div className="card group card-compact w-96 h-60 bg-base-100  shadow-xl relative cursor-pointer transition-all
+               <div className="card group card-compact w-full h-60 bg-base-100  shadow-xl relative cursor-pointer transition-all
                          hover:scale-x-105 hover:scale-y-105      
                ">
                <button onClick={deleteImage} className="absolute z-10 -right-3 -top-4 btn btn-error">
